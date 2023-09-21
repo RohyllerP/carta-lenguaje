@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "verb": "write",
+        "proVerb": "rait",
+        "verbPast": "wrote",
+        "proVerbPast": "rout",
+        "verbPastPerfect": "written",
+        "proVerbPastPerfect": "rittn",
+        "translate": "escribir"
+    },
+    {
+        "id": 2,
+        "verb": "walk",
+        "proVerb": "wok",
+        "verbPast": "walked",
+        "proVerbPast": "woked",
+        "verbPastPerfect": "walked",
+        "proVerbPastPerfect": "woked",
+        "translate": "caminar"
+    }
+]

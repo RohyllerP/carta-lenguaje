@@ -1,24 +1,49 @@
 const response = await fetch('./practic.json');
 const data = await response.json();
+
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
-  
+
     // Mientras queden elementos a mezclar...
     while (0 !== currentIndex) {
-  
-      // Seleccionar un elemento sin mezclar...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-  
-      // E intercambiarlo con el elemento actual
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+
+        // Seleccionar un elemento sin mezclar...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // E intercambiarlo con el elemento actual
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
     }
-  
+
     return array;
-  }
+}
 $(document).ready(function () {
+    var miDiv = $('#listWords');
+
+    for (var i = 0; i < data.length; i++) {
+        var divProducto = $("<div>");
+        divProducto.addClass("pb-2");
+
+        var spanIndex = $("<span>")
+        spanIndex.text(data[i].id + ")");
+        spanIndex.addClass("pe-3")
+        
+        var spanNombre = $("<span>");
+        spanNombre.addClass("pe-3");
+        spanNombre.text(data[i].title);
+
+        var spanPrecio = $("<span>");
+        spanPrecio.text(data[i].pronunciation);
+        spanPrecio.addClass("pe-3");
+
+        var spanDefini = $("<span>");
+        spanDefini.text(data[i].translate);
+
+        divProducto.append(spanIndex, spanNombre, spanPrecio,spanDefini);
+        miDiv.append(divProducto);
+    }
     var audio = $('#myAudio')[0];
     var auxNum = 0;
     let dataMap;
