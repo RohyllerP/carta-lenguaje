@@ -77,6 +77,7 @@ $(document).ready(function(){
         $('#proVerbPastPerfect').text("- " + dataMap[auxNum].proVerbPastPerfect);
     }
     $('#modal').click(function () {
+        $('#listWords').empty();
         let h = data.slice(-$('#num').val())
         dataMap = shuffle(h);
         auxNum = 0;
@@ -93,12 +94,12 @@ $(document).ready(function(){
             auxNum++;
             if (auxNum < dataMap.length) {
                 $('#translate').text(dataMap[auxNum].translate);
-                $('#verb').text(dataMap[auxNum].verb);
-                $('#proVerb').text("- " + dataMap[auxNum].proVerb);
-                $('#verbPast').text(dataMap[auxNum].verbPast);
-                $('#proVerbPast').text("- " + dataMap[auxNum].proVerbPast);
-                $('#verbPastPerfect').text(dataMap[auxNum].verbPastPerfect);
-                $('#proVerbPastPerfect').text("- " + dataMap[auxNum].proVerbPastPerfect);
+                $('#verb').text("");
+                $('#proVerb').text("");
+                $('#verbPast').text("");
+                $('#proVerbPast').text("");
+                $('#verbPastPerfect').text("");
+                $('#proVerbPastPerfect').text("");
             } else {
                 auxNum = 0;
                 $('#closeBtn').click();
@@ -107,6 +108,9 @@ $(document).ready(function(){
         });
 
     });
+    $('#todosVerbos').click(function () {
+        $('#modal').click();
+    })
     $('#staticBackdrop').keydown(function (event) {
         if (event.keyCode == 27) {
             $('#closeBtn').click();
