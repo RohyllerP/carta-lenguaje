@@ -1398,5 +1398,110 @@
         "pronunciation": "gould",
         "url": "public/audios/gold.mp3",
         "translate": "oro"
+    },
+    {
+        "id": 201,
+        "title": "although",
+        "pronunciation": "altouh",
+        "url": "public/audios/although.mp3",
+        "translate": "aunque"
+    },
+    {
+        "id": 202,
+        "title": "while",
+        "pronunciation": "waeal",
+        "url": "public/audios/while.mp3",
+        "translate": "mientras"
+    },
+    {
+        "id": 203,
+        "title": "meanwhile",
+        "pronunciation": "minwaeal",
+        "url": "public/audios/meanwhile.mp3",
+        "translate": "mientras tanto"
+    },
+    {
+        "id": 204,
+        "title": "firstly",
+        "pronunciation": "ferstly",
+        "url": "public/audios/firstly.mp3",
+        "translate": "en primer lugar"
+    },
+    {
+        "id": 205,
+        "title": "furthermore",
+        "pronunciation": "furthermor",
+        "url": "public/audios/furthermore.mp3",
+        "translate": "ademas"
+    },
+    {
+        "id": 206,
+        "title": "moreover",
+        "pronunciation": "morover",
+        "url": "public/audios/moreover.mp3",
+        "translate": "ademas"
+    },
+    {
+        "id": 207,
+        "title": "nonetheless",
+        "pronunciation": "nentheless",
+        "url": "public/audios/nonetheless.mp3",
+        "translate": "no obstante"
+    },
+    {
+        "id": 208,
+        "title": "nevertheless",
+        "pronunciation": "nevertheless",
+        "url": "public/audios/nevertheless.mp3",
+        "translate": "sin embargo"
+    },
+    {
+        "id": 209,
+        "title": "likewise",
+        "pronunciation": "laikwais",
+        "url": "public/audios/likewise.mp3",
+        "translate": "igualmente"
+    },
+    {
+        "id": 210,
+        "title": "consequently",
+        "pronunciation": "kansekentli",
+        "url": "public/audios/consequently.mp3",
+        "translate": "en consecuencia"
+    },
+    {
+        "id": 211,
+        "title": "summary",
+        "pronunciation": "somery",
+        "url": "public/audios/summary.mp3",
+        "translate": "resumen"
+    },
+    {
+        "id": 212,
+        "title": "comparison",
+        "pronunciation": "comperesen",
+        "url": "public/audios/comparison.mp3",
+        "translate": "comparacion"
+    },
+    {
+        "id": 213,
+        "title": "subsequently",
+        "pronunciation": "sobsekueqli",
+        "url": "public/audios/subsequently.mp3",
+        "translate": "posteriormente"
+    },
+    {
+        "id": 214,
+        "title": "thus",
+        "pronunciation": "thas",
+        "url": "public/audios/thus.mp3",
+        "translate": "por lo tanto"
+    },
+    {
+        "id": 215,
+        "title": "similarly",
+        "pronunciation": "similarly",
+        "url": "public/audios/similarly.mp3",
+        "translate": "similarmente"
     }
 ]
