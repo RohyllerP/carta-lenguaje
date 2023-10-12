@@ -1037,16 +1037,16 @@
     },
     {
         "id": 149,
-        "title": "Accountant",
+        "title": "accountant",
         "pronunciation": "acauntent",
-        "url": "public/audios/Accountant.mp3",
+        "url": "public/audios/accountant.mp3",
         "translate": "contador"
     },
     {
         "id": 150,
-        "title": "Fisherman",
+        "title": "fisherman",
         "pronunciation": "fishermen",
-        "url": "public/audios/Fisherman.mp3",
+        "url": "public/audios/fisherman.mp3",
         "translate": "pescador"
     },
     {
@@ -1402,7 +1402,7 @@
     {
         "id": 201,
         "title": "although",
-        "pronunciation": "altouh",
+        "pronunciation": "oldouh",
         "url": "public/audios/although.mp3",
         "translate": "aunque"
     },
